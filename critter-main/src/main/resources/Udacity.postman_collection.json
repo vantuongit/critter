@@ -1,8 +1,9 @@
 {
 	"info": {
-		"_postman_id": "3da4eeec-6238-471f-ab55-ce0d742fa76e",
+		"_postman_id": "b662b738-959d-4adb-8a9a-a3c20e93394c",
 		"name": "Udacity",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37427456"
 	},
 	"item": [
 		{
@@ -12,7 +13,6 @@
 				"header": [
 					{
 						"key": "Content-Type",
-						"name": "Content-Type",
 						"value": "application/json",
 						"type": "text"
 					}
@@ -48,7 +48,6 @@
 				"header": [
 					{
 						"key": "Content-Type",
-						"name": "Content-Type",
 						"value": "application/json",
 						"type": "text"
 					}
@@ -83,7 +82,6 @@
 				"header": [
 					{
 						"key": "Content-Type",
-						"name": "Content-Type",
 						"value": "application/json",
 						"type": "text"
 					}
@@ -119,9 +117,8 @@
 				"header": [
 					{
 						"key": "Content-Type",
-						"name": "Content-Type",
-						"type": "text",
-						"value": "application/json"
+						"value": "application/json",
+						"type": "text"
 					}
 				],
 				"body": {
@@ -159,9 +156,8 @@
 				"header": [
 					{
 						"key": "Content-Type",
-						"name": "Content-Type",
-						"type": "text",
-						"value": "application/json"
+						"value": "application/json",
+						"type": "text"
 					}
 				],
 				"body": {
@@ -196,9 +192,8 @@
 				"header": [
 					{
 						"key": "Content-Type",
-						"name": "Content-Type",
-						"type": "text",
-						"value": "application/json"
+						"value": "application/json",
+						"type": "text"
 					}
 				],
 				"body": {
@@ -236,9 +231,8 @@
 				"header": [
 					{
 						"key": "Content-Type",
-						"name": "Content-Type",
-						"type": "text",
-						"value": "application/json"
+						"value": "application/json",
+						"type": "text"
 					}
 				],
 				"body": {
@@ -276,9 +270,8 @@
 				"header": [
 					{
 						"key": "Content-Type",
-						"name": "Content-Type",
-						"type": "text",
-						"value": "application/json"
+						"value": "application/json",
+						"type": "text"
 					}
 				],
 				"body": {
@@ -316,9 +309,8 @@
 				"header": [
 					{
 						"key": "Content-Type",
-						"name": "Content-Type",
-						"type": "text",
-						"value": "application/json"
+						"value": "application/json",
+						"type": "text"
 					}
 				],
 				"body": {
@@ -331,7 +323,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8082/schedule/customer/2",
+					"raw": "http://localhost:8082/schedule/employee/2",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -356,7 +348,6 @@
 				"header": [
 					{
 						"key": "Content-Type",
-						"name": "Content-Type",
 						"value": "application/json",
 						"type": "text"
 					}
@@ -395,7 +386,6 @@
 				"header": [
 					{
 						"key": "Content-Type",
-						"name": "Content-Type",
 						"value": "application/json",
 						"type": "text"
 					}
@@ -410,7 +400,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8082/pet",
+					"raw": "http://localhost:8082/user/customer",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -434,9 +424,8 @@
 				"header": [
 					{
 						"key": "Content-Type",
-						"name": "Content-Type",
-						"type": "text",
-						"value": "application/json"
+						"value": "application/json",
+						"type": "text"
 					}
 				],
 				"body": {
@@ -474,9 +463,8 @@
 				"header": [
 					{
 						"key": "Content-Type",
-						"name": "Content-Type",
-						"type": "text",
-						"value": "application/json"
+						"value": "application/json",
+						"type": "text"
 					}
 				],
 				"body": {
@@ -505,6 +493,5 @@
 			},
 			"response": []
 		}
-	],
-	"protocolProfileBehavior": {}
+	]
 }
