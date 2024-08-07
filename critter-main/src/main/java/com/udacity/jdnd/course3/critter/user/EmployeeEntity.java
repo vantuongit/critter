@@ -17,7 +17,15 @@ import java.util.Set;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class EmployeeEntity extends UserEntity{
+public class EmployeeEntity{
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private String name;
+    private String username;
+    private String password;
     @ElementCollection(targetClass = EmployeeSkill.class)
     @Enumerated(EnumType.STRING)
     @CollectionTable(name = "employee_skill", joinColumns = @JoinColumn(name = "employee_id"))
