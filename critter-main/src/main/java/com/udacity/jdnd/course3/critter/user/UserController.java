@@ -87,10 +87,11 @@ public class UserController {
     }
 
     @PutMapping("/employee/{empId}")
-    public void setAvailability(@RequestBody Set<DayOfWeek> daysAvailable, @PathVariable long empId) {
+    public EmployeeDTO setAvailability(@RequestBody Set<DayOfWeek> daysAvailable, @PathVariable long empId) {
         EmployeeEntity employeeEntity = employeeService.findById(empId);
         employeeEntity.setDaysAvailable(daysAvailable);
-        employeeService.save(employeeEntity);
+        EmployeeEntity entity = employeeService.save(employeeEntity);
+        return modelMapper.map(entity,EmployeeDTO.class);
     }
 
     @GetMapping("/employee/availability")

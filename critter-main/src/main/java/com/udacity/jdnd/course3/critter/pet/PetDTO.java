@@ -18,6 +18,4 @@ public class PetDTO {
     private PetType type;
     private String name;
     private long ownerId;
-    private LocalDate birthDate;
-    private String notes;
 }

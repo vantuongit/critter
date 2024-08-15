@@ -24,8 +24,6 @@ public class EmployeeEntity{
     private Long id;
 
     private String name;
-    private String username;
-    private String password;
     @ElementCollection(targetClass = EmployeeSkill.class)
     @Enumerated(EnumType.STRING)
     @CollectionTable(name = "employee_skill", joinColumns = @JoinColumn(name = "employee_id"))
@@ -38,5 +36,4 @@ public class EmployeeEntity{
     @Enumerated(EnumType.STRING)
     @CollectionTable(name = "employee_daysavailable", joinColumns = @JoinColumn(name = "employee_id"))
     private Set<DayOfWeek> daysAvailable;
-    private String phoneNumber;
 }
